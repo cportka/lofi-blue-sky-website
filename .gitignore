@@ -155,3 +155,12 @@ vite.config.ts.timestamp-*
 .nx/cache
 .nx/workspace-data
 .nx/migrate-runs
+
+# Raw Carrd site exports (the published copy lives in site/)
+carrd-*/
+
+# macOS
+.DS_Store
+
+# Claude Code worktrees
+.claude/worktrees/
